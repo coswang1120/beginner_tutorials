@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.0.2)
+cmake_minimum_required(VERSION 3.5.1)
 project(beginner_tutorials)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
@@ -11,7 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
   std_msgs
-  message_generation
+        message_generation
 )
 
 ## System dependencies are found with CMake's conventions
@@ -48,10 +48,10 @@ find_package(catkin REQUIRED COMPONENTS
 ##   * add every package in MSG_DEP_SET to generate_messages(DEPENDENCIES ...)
 
 ## Generate messages in the 'msg' folder
- add_message_files(
-   FILES
-   my_msg.msg
- )
+add_message_files(
+        FILES
+        my_msg.msg
+)
 
 
 
@@ -118,7 +118,7 @@ catkin_package(
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
 
-
+#find_path(HEADERS NAMES my_msg.h /home/coswang/catkin_ws/devel/include/beginner_tutorials)
 
 include_directories(include ${catkin_INCLUDE_DIRS})
 
@@ -224,3 +224,9 @@ target_link_libraries(add_two_ints_server ${catkin_LIBRARIES})
 
 add_executable(add_two_ints_client src/add_two_ints_client.cpp)
 target_link_libraries(add_two_ints_client ${catkin_LIBRARIES})
+
+add_executable(talkermsg src/talkermsg.cpp)
+target_link_libraries(talkermsg ${catkin_LIBRARIES})
+
+add_dependencies(talkermsg ${catkin_EXPORTED_TARGETS})
+

@@ -6,9 +6,6 @@
   <component name="CMakePresetLoader">{
   &quot;useNewFormat&quot;: true
 }</component>
-  <component name="CMakeProjectFlavorService">
-    <option name="flavorId" value="CMakePlainProjectFlavor" />
-  </component>
   <component name="CMakeReloadState">
     <option name="reloaded" value="true" />
   </component>
@@ -16,9 +13,16 @@
     <generated>
       <config projectName="beginner_tutorials" targetName="rosgraph_msgs_generate_messages_cpp" />
       <config projectName="beginner_tutorials" targetName="roscpp_generate_messages_nodejs" />
+      <config projectName="beginner_tutorials" targetName="beginner_tutorials_genpy" />
       <config projectName="beginner_tutorials" targetName="std_msgs_generate_messages_eus" />
+      <config projectName="beginner_tutorials" targetName="beginner_tutorials_generate_messages" />
+      <config projectName="beginner_tutorials" targetName="beginner_tutorials_gencpp" />
+      <config projectName="beginner_tutorials" targetName="beginner_tutorials_generate_messages_cpp" />
       <config projectName="beginner_tutorials" targetName="std_msgs_generate_messages_py" />
+      <config projectName="beginner_tutorials" targetName="beginner_tutorials_generate_messages_nodejs" />
+      <config projectName="beginner_tutorials" targetName="talkermsg" />
       <config projectName="beginner_tutorials" targetName="roscpp_generate_messages_cpp" />
+      <config projectName="beginner_tutorials" targetName="beginner_tutorials_generate_messages_lisp" />
       <config projectName="beginner_tutorials" targetName="rosgraph_msgs_generate_messages_py" />
       <config projectName="beginner_tutorials" targetName="listener" />
       <config projectName="beginner_tutorials" targetName="tests" />
@@ -26,6 +30,7 @@
       <config projectName="beginner_tutorials" targetName="download_extra_data" />
       <config projectName="beginner_tutorials" targetName="clean_test_results" />
       <config projectName="beginner_tutorials" targetName="rosgraph_msgs_generate_messages_lisp" />
+      <config projectName="beginner_tutorials" targetName="beginner_tutorials_genlisp" />
       <config projectName="beginner_tutorials" targetName="std_msgs_generate_messages_lisp" />
       <config projectName="beginner_tutorials" targetName="gtest_main" />
       <config projectName="beginner_tutorials" targetName="add_two_ints_server" />
@@ -36,37 +41,173 @@
       <config projectName="beginner_tutorials" targetName="gmock_main" />
       <config projectName="beginner_tutorials" targetName="talker" />
       <config projectName="beginner_tutorials" targetName="std_msgs_generate_messages_cpp" />
+      <config projectName="beginner_tutorials" targetName="_beginner_tutorials_generate_messages_check_deps_my_msg" />
+      <config projectName="beginner_tutorials" targetName="beginner_tutorials_geneus" />
       <config projectName="beginner_tutorials" targetName="roscpp_generate_messages_py" />
+      <config projectName="beginner_tutorials" targetName="beginner_tutorials_generate_messages_eus" />
       <config projectName="beginner_tutorials" targetName="gtest" />
       <config projectName="beginner_tutorials" targetName="roscpp_generate_messages_eus" />
       <config projectName="beginner_tutorials" targetName="hello" />
       <config projectName="beginner_tutorials" targetName="rosgraph_msgs_generate_messages_nodejs" />
+      <config projectName="beginner_tutorials" targetName="beginner_tutorials_gennodejs" />
       <config projectName="beginner_tutorials" targetName="gmock" />
       <config projectName="beginner_tutorials" targetName="roscpp_generate_messages_lisp" />
+      <config projectName="beginner_tutorials" targetName="beginner_tutorials_generate_messages_py" />
     </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
-      <configuration PROFILE_NAME="ROS_Debug" ENABLED="true" GENERATION_DIR="$PROJECT_DIR$/../../build" CONFIG_NAME="ROS_Debug" GENERATION_OPTIONS="caktin_make -DCMAKE_BUILD_TYPE=Debug -DCATKIN_DEVEL_PREFIX:PATH=/home/coswang/catkin_ws/devel -DCATKIN_BUILD_PREFIX:PATH=/home/coswang/catkin_ws/build" />
+      <configuration PROFILE_NAME="Debug" ENABLED="true" GENERATION_DIR="$PROJECT_DIR$/../../build" CONFIG_NAME="Debug" GENERATION_OPTIONS="-DCMAKE_BUILD_TYPE=Debug -DCATKIN_DEVEL_PREFIX:PATH=/home/coswang/catkin_ws/devel" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed58a12e-bf56-4ebe-866f-e7d1a023577e" name="更改" comment="Enable message generation in CMakeLists.txt&#10;&#10;Uncomment and modify `add_message_files` to include `my_msg.msg`, facilitating message generation in the 'msg' folder.">
-      <change afterPath="$PROJECT_DIR$/../qtws/qtws.workspace" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../qtws/src/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/beginner_tutorials.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/coswang.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="cbebcb76-deee-4da1-b344-7f3e6fdae951" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-0f3084622d3258333293.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-d37704368dc346229202.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-eea31c7dad9314fb7ed3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-0f2e24db51ae6fab6032.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-gtest-Debug-d42e0f0521613121e98b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-gtest.gtest-Debug-cdf71500829b66e5bacd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-10-10T05-13-01-0216.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-_beginner_tutorials_generate_messages_check_deps_my_msg-Debug-f07eceab4388fdd85bbc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-add_two_ints_client-Debug-c7f431f5954105949898.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-add_two_ints_server-Debug-6ead996177c2a1d4d76d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-beginner_tutorials_gencpp-Debug-10a2fbb42489feb770ca.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-beginner_tutorials_generate_messages-Debug-d537a5af8f5d1c78306c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-beginner_tutorials_generate_messages_cpp-Debug-05239b18bcab6b6ff938.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-beginner_tutorials_generate_messages_eus-Debug-bca64c0a920913825d2b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-beginner_tutorials_generate_messages_lisp-Debug-fc9dd0c269993a25cf18.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-beginner_tutorials_generate_messages_nodejs-Debug-cec1165df1da53a056a0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-beginner_tutorials_generate_messages_py-Debug-a74eaea84c8025eee12d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-beginner_tutorials_geneus-Debug-2098ee4f62a94bac8c57.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-beginner_tutorials_genlisp-Debug-7d640977f105b73d2692.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-beginner_tutorials_gennodejs-Debug-41b81e8746c764fd0324.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-beginner_tutorials_genpy-Debug-6efb3e0dd93792a9dd75.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-clean_test_results-Debug-79838e728e818fc26ae5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-download_extra_data-Debug-9b3d4bdc772606b45e45.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-doxygen-Debug-2df5f254b165dbeabeb6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-gmock-Debug-e7353f4336591e2185d8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-gmock_main-Debug-cbff8d5b68d773d0f783.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-gtest-Debug-a8aac4a9f7183f6817ea.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-gtest_main-Debug-0b2170a9815c6eb5488a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-hello-Debug-e1e5ab7c04e38d0032b9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-listener-Debug-7feeb73bd7639497bb06.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-roscpp_generate_messages_cpp-Debug-d57357e4386bdd09548f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-roscpp_generate_messages_eus-Debug-3caa5853ed6645bdefb1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-roscpp_generate_messages_lisp-Debug-aa2e6606a9283d40e789.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-roscpp_generate_messages_nodejs-Debug-b8a2bdbd13ca06adf698.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-roscpp_generate_messages_py-Debug-4da5fdffd9f87ce654ba.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-rosgraph_msgs_generate_messages_cpp-Debug-d615c2c4277f96e571b1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-rosgraph_msgs_generate_messages_eus-Debug-4dc03a920877bec955e9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-rosgraph_msgs_generate_messages_lisp-Debug-7d40c7ccc58bdd421ddb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-rosgraph_msgs_generate_messages_nodejs-Debug-78ea1e5e340c09436aa7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-rosgraph_msgs_generate_messages_py-Debug-674caa763599c0e33a9b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-run_tests-Debug-340908e08f4ee3b1cb48.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-std_msgs_generate_messages_cpp-Debug-114616840bbecc9dc71e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-std_msgs_generate_messages_eus-Debug-cae205c45e7684db13cb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-std_msgs_generate_messages_lisp-Debug-3bea50213d96df30498a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-std_msgs_generate_messages_nodejs-Debug-f174e0da5a55cfd5d753.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-std_msgs_generate_messages_py-Debug-e8b1118cbfcce510d7a3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-talker-Debug-dc34eb00007291f0d4a3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-talker_msg-Debug-8f782aa63b050041a815.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-tests-Debug-406cfb2d58b206758317.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-4c9a078dfb56c6451f83.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CATKIN_IGNORE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.6/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.6/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.6/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.6/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.6/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.6/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.6/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.6/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.6/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hello.dir/src/hello.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CTestConfiguration.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CTestCustom.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CTestTestfile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/atomic_configure/.rosinstall" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/atomic_configure/_setup_util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/atomic_configure/env.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/atomic_configure/local_setup.bash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/atomic_configure/local_setup.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/atomic_configure/local_setup.zsh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/atomic_configure/setup.bash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/atomic_configure/setup.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/atomic_configure/setup.zsh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/catkin/catkin_generated/version/package.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/beginner_tutorials-msg-extras.cmake.develspace.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/beginner_tutorials-msg-extras.cmake.installspace.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/env_cached.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/generate_cached_setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/installspace/.rosinstall" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/installspace/_setup_util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/installspace/beginner_tutorials-msg-extras.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/installspace/beginner_tutorials-msg-paths.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/installspace/beginner_tutorials.pc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/installspace/beginner_tutorialsConfig-version.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/installspace/beginner_tutorialsConfig.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/installspace/env.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/installspace/local_setup.bash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/installspace/local_setup.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/installspace/local_setup.zsh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/installspace/setup.bash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/installspace/setup.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/installspace/setup.zsh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/ordered_paths.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/package.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/pkg.develspace.context.pc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/pkg.installspace.context.pc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/setup_cached.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/stamps/beginner_tutorials/_setup_util.py.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/stamps/beginner_tutorials/interrogate_setup_dot_py.py.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/stamps/beginner_tutorials/package.xml.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/stamps/beginner_tutorials/pkg-genmsg.cmake.em.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/catkin_generated/stamps/beginner_tutorials/pkg.pc.em.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake/beginner_tutorials-genmsg-context.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake/beginner_tutorials-genmsg.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/devel/.catkin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/devel/.rosinstall" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/devel/_setup_util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/devel/cmake.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/devel/env.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/devel/lib/beginner_tutorials/hello" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/devel/lib/pkgconfig/beginner_tutorials.pc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/devel/lib/python2.7/dist-packages/beginner_tutorials/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/devel/local_setup.bash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/devel/local_setup.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/devel/local_setup.zsh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/devel/setup.bash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/devel/setup.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/devel/setup.zsh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/devel/share/beginner_tutorials/cmake/beginner_tutorials-msg-extras.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/devel/share/beginner_tutorials/cmake/beginner_tutorials-msg-paths.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/devel/share/beginner_tutorials/cmake/beginner_tutorialsConfig-version.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/devel/share/beginner_tutorials/cmake/beginner_tutorialsConfig.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/gtest/CTestTestfile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/gtest/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/gtest/gtest/CTestTestfile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/gtest/gtest/cmake_install.cmake" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.xml" beforeDir="false" afterPath="$PROJECT_DIR$/package.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kitti_toturial/src/kitti.py" beforeDir="false" afterPath="$PROJECT_DIR$/../kitti_toturial/src/kitti.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kitti_toturial/src/publish_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../kitti_toturial/src/publish_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kitti_toturial/src/track_id.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../kitti_toturial/src/track_id.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/talker_msg.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/talkermsg.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,53 +217,48 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:ROS_Debug" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/hello.cpp" root0="FORCE_HIGHLIGHTING" />
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
-  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;coswang1120&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/coswang1120/beginner_tutorials.git&quot;,
+    &quot;accountId&quot;: &quot;edba0235-80fe-4b6c-9109-8c06588f77e2&quot;
+  }
+}</component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
     <option name="majorVersion" value="2024" />
-    <option name="minorVersion" value="2.2" />
+    <option name="minorVersion" value="1.5" />
     <option name="productBranch" value="Classic" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
-  <component name="ProjectId" id="2mvgRIvvbviV5AuXaXOsjos019p" />
+  <component name="ProjectId" id="2nEit3OYvIToMvAineb6PaMMWvO" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "CMake 应用程序.add_two_ints_client.executor": "Run",
-    "CMake 应用程序.add_two_ints_server.executor": "Debug",
-    "CMake 应用程序.hello.exe.executor": "Run",
-    "CMake 应用程序.hello.executor": "Debug",
-    "CMake 应用程序.listener.executor": "Run",
-    "CMake 应用程序.talker.executor": "Run",
-    "CMake 调试.beginner_tutorials.executor": "Debug",
-    "ROS launch.hello launch.executor": "Run",
-    "ROS launch.未命名.executor": "Run",
-    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "CMake 应用程序.hello.executor": "Run",
+    "CMake 应用程序.talkermsg.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "cf.advertisement.text.has.clang-format": "true",
-    "cf.advertisement.text.overridden": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/coswang/catkin_ws",
+    "git-widget-placeholder": "msg",
+    "last_opened_file_path": "/home/coswang/catkin_ws/src/beginner_tutorials/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -133,148 +269,227 @@
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="CidrLocalAttachDebugger.recentlyUsed">
-      <recent name="com.jetbrains.cidr.cpp.execution.debugger.backend.CLionGDBDriverConfiguration:/home/coswang/.local/share/JetBrains/Toolbox/apps/clion/bin/gdb/linux/x64/bin/gdb" />
-      <recent name="com.jetbrains.cidr.cpp.execution.debugger.backend.CLionLLDBDriverConfiguration" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake 应用程序.add_two_ints_client">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="add_two_ints_client" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="add_two_ints_client" CONFIG_NAME="ROS_Debug" RUN_TARGET_PROJECT_NAME="beginner_tutorials" RUN_TARGET_NAME="add_two_ints_client">
+  <component name="RunManager" selected="CMake 应用程序.talkermsg">
+    <configuration name="_beginner_tutorials_generate_messages_check_deps_my_msg" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="_beginner_tutorials_generate_messages_check_deps_my_msg" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="add_two_ints_server" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="add_two_ints_server" CONFIG_NAME="ROS_Debug" RUN_TARGET_PROJECT_NAME="beginner_tutorials" RUN_TARGET_NAME="add_two_ints_server">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="download_extra_data" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="download_extra_data" CONFIG_NAME="ROS_Debug">
+    <configuration name="add_two_ints_client" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="add_two_ints_client" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="beginner_tutorials" RUN_TARGET_NAME="add_two_ints_client">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="doxygen" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="doxygen" CONFIG_NAME="ROS_Debug">
+    <configuration name="add_two_ints_server" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="add_two_ints_server" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="beginner_tutorials" RUN_TARGET_NAME="add_two_ints_server">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="gmock" CONFIG_NAME="ROS_Debug">
+    <configuration name="beginner_tutorials_gencpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="beginner_tutorials_gencpp" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gmock_main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="gmock_main" CONFIG_NAME="ROS_Debug">
+    <configuration name="beginner_tutorials_generate_messages" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="beginner_tutorials_generate_messages" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="gtest" CONFIG_NAME="ROS_Debug">
+    <configuration name="beginner_tutorials_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="beginner_tutorials_generate_messages_cpp" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="gtest_main" CONFIG_NAME="ROS_Debug">
+    <configuration name="beginner_tutorials_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="beginner_tutorials_generate_messages_eus" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="hello" CONFIG_NAME="ROS_Debug" RUN_TARGET_PROJECT_NAME="beginner_tutorials" RUN_TARGET_NAME="hello">
+    <configuration name="beginner_tutorials_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="beginner_tutorials_generate_messages_lisp" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="listener" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="listener" CONFIG_NAME="ROS_Debug" RUN_TARGET_PROJECT_NAME="beginner_tutorials" RUN_TARGET_NAME="listener">
+    <configuration name="beginner_tutorials_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="beginner_tutorials_generate_messages_nodejs" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="roscpp_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="roscpp_generate_messages_cpp" CONFIG_NAME="ROS_Debug">
+    <configuration name="beginner_tutorials_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="beginner_tutorials_generate_messages_py" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="roscpp_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="roscpp_generate_messages_eus" CONFIG_NAME="ROS_Debug">
+    <configuration name="beginner_tutorials_geneus" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="beginner_tutorials_geneus" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="roscpp_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="roscpp_generate_messages_lisp" CONFIG_NAME="ROS_Debug">
+    <configuration name="beginner_tutorials_genlisp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="beginner_tutorials_genlisp" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="roscpp_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="roscpp_generate_messages_nodejs" CONFIG_NAME="ROS_Debug">
+    <configuration name="beginner_tutorials_gennodejs" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="beginner_tutorials_gennodejs" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="roscpp_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="roscpp_generate_messages_py" CONFIG_NAME="ROS_Debug">
+    <configuration name="beginner_tutorials_genpy" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="beginner_tutorials_genpy" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="rosgraph_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="rosgraph_msgs_generate_messages_cpp" CONFIG_NAME="ROS_Debug">
+    <configuration name="clean_test_results" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="clean_test_results" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="rosgraph_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="rosgraph_msgs_generate_messages_eus" CONFIG_NAME="ROS_Debug">
+    <configuration name="download_extra_data" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="download_extra_data" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="rosgraph_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="rosgraph_msgs_generate_messages_lisp" CONFIG_NAME="ROS_Debug">
+    <configuration name="doxygen" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="doxygen" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="rosgraph_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="rosgraph_msgs_generate_messages_nodejs" CONFIG_NAME="ROS_Debug">
+    <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="gmock" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="rosgraph_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="rosgraph_msgs_generate_messages_py" CONFIG_NAME="ROS_Debug">
+    <configuration name="gmock_main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="gmock_main" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="run_tests" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="run_tests" CONFIG_NAME="ROS_Debug">
+    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="gtest" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="std_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="std_msgs_generate_messages_cpp" CONFIG_NAME="ROS_Debug">
+    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="gtest_main" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="std_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="std_msgs_generate_messages_eus" CONFIG_NAME="ROS_Debug">
+    <configuration name="hello" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="hello" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="beginner_tutorials" RUN_TARGET_NAME="hello">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="std_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="std_msgs_generate_messages_lisp" CONFIG_NAME="ROS_Debug">
+    <configuration name="listener" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="listener" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="beginner_tutorials" RUN_TARGET_NAME="listener">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="std_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="std_msgs_generate_messages_nodejs" CONFIG_NAME="ROS_Debug">
+    <configuration name="roscpp_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="roscpp_generate_messages_cpp" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="std_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="std_msgs_generate_messages_py" CONFIG_NAME="ROS_Debug">
+    <configuration name="roscpp_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="roscpp_generate_messages_eus" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tests" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="tests" CONFIG_NAME="ROS_Debug">
+    <configuration name="roscpp_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="roscpp_generate_messages_lisp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="roscpp_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="roscpp_generate_messages_nodejs" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="roscpp_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="roscpp_generate_messages_py" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosgraph_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="rosgraph_msgs_generate_messages_cpp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosgraph_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="rosgraph_msgs_generate_messages_eus" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosgraph_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="rosgraph_msgs_generate_messages_lisp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosgraph_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="rosgraph_msgs_generate_messages_nodejs" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosgraph_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="rosgraph_msgs_generate_messages_py" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="run_tests" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="run_tests" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="std_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="std_msgs_generate_messages_cpp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="std_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="std_msgs_generate_messages_eus" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="std_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="std_msgs_generate_messages_lisp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="std_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="std_msgs_generate_messages_nodejs" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="std_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="std_msgs_generate_messages_py" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="talker" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="talker" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="beginner_tutorials" RUN_TARGET_NAME="talker">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="talkermsg" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="talkermsg" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="beginner_tutorials" RUN_TARGET_NAME="talkermsg">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="talkermsg" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="hello" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="beginner_tutorials" RUN_TARGET_NAME="talkermsg">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tests" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="beginner_tutorials" TARGET_NAME="tests" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -282,9 +497,23 @@
     <list>
       <item itemvalue="CMake 应用程序.add_two_ints_client" />
       <item itemvalue="CMake 应用程序.add_two_ints_server" />
-      <item itemvalue="CMake 应用程序.hello" />
+      <item itemvalue="CMake 应用程序.talkermsg" />
       <item itemvalue="CMake 应用程序.listener" />
+      <item itemvalue="CMake 应用程序.talker" />
+      <item itemvalue="CMake 应用程序._beginner_tutorials_generate_messages_check_deps_my_msg" />
+      <item itemvalue="CMake 应用程序.beginner_tutorials_gencpp" />
+      <item itemvalue="CMake 应用程序.beginner_tutorials_generate_messages" />
+      <item itemvalue="CMake 应用程序.beginner_tutorials_generate_messages_cpp" />
+      <item itemvalue="CMake 应用程序.beginner_tutorials_generate_messages_eus" />
+      <item itemvalue="CMake 应用程序.beginner_tutorials_generate_messages_lisp" />
+      <item itemvalue="CMake 应用程序.beginner_tutorials_generate_messages_nodejs" />
+      <item itemvalue="CMake 应用程序.beginner_tutorials_generate_messages_py" />
+      <item itemvalue="CMake 应用程序.beginner_tutorials_geneus" />
+      <item itemvalue="CMake 应用程序.beginner_tutorials_genlisp" />
+      <item itemvalue="CMake 应用程序.beginner_tutorials_gennodejs" />
+      <item itemvalue="CMake 应用程序.beginner_tutorials_genpy" />
       <item itemvalue="CMake 应用程序.download_extra_data" />
+      <item itemvalue="CMake 应用程序.clean_test_results" />
       <item itemvalue="CMake 应用程序.run_tests" />
       <item itemvalue="CMake 应用程序.tests" />
       <item itemvalue="CMake 应用程序.doxygen" />
@@ -312,94 +541,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="ed58a12e-bf56-4ebe-866f-e7d1a023577e" name="更改" comment="" />
-      <created>1727962454116</created>
+      <changelist id="cbebcb76-deee-4da1-b344-7f3e6fdae951" name="更改" comment="" />
+      <created>1728544846421</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1727962454116</updated>
-      <workItem from="1727962455242" duration="4622000" />
-      <workItem from="1727967633337" duration="304000" />
-      <workItem from="1727968074932" duration="9000" />
-      <workItem from="1727968331136" duration="13000" />
-      <workItem from="1727968975984" duration="200000" />
-      <workItem from="1727969187195" duration="2000" />
-      <workItem from="1727969212396" duration="4000" />
-      <workItem from="1727969253785" duration="31000" />
-      <workItem from="1728050180403" duration="35000" />
-      <workItem from="1728050240841" duration="102000" />
-      <workItem from="1728050356752" duration="827000" />
-      <workItem from="1728051193480" duration="506000" />
-      <workItem from="1728102226820" duration="2706000" />
-      <workItem from="1728107129899" duration="594000" />
-      <workItem from="1728107743913" duration="63000" />
-      <workItem from="1728107866393" duration="55000" />
-      <workItem from="1728107975783" duration="96000" />
-      <workItem from="1728119999722" duration="413000" />
-      <workItem from="1728120638057" duration="353000" />
-      <workItem from="1728121004779" duration="405000" />
-      <workItem from="1728121418424" duration="67000" />
-      <workItem from="1728121494564" duration="224000" />
-      <workItem from="1728121726257" duration="43000" />
-      <workItem from="1728121778509" duration="797000" />
-      <workItem from="1728129398047" duration="2418000" />
-      <workItem from="1728131839214" duration="4568000" />
-      <workItem from="1728176416152" duration="17000" />
-      <workItem from="1728192715515" duration="170000" />
-      <workItem from="1728192895321" duration="605000" />
-      <workItem from="1728304597898" duration="2059000" />
-      <workItem from="1728395564919" duration="3137000" />
-      <workItem from="1728399243824" duration="30000" />
-      <workItem from="1728399294623" duration="990000" />
-      <workItem from="1728400295742" duration="3569000" />
-      <workItem from="1728478053189" duration="9000" />
-      <workItem from="1728478099866" duration="10000" />
-      <workItem from="1728478125694" duration="30000" />
-      <workItem from="1728478167785" duration="526000" />
-      <workItem from="1728480522007" duration="53000" />
-      <workItem from="1728480589941" duration="378000" />
-      <workItem from="1728480986748" duration="3000" />
-      <workItem from="1728481177812" duration="3000" />
-      <workItem from="1728481335438" duration="215000" />
-      <workItem from="1728481563235" duration="57000" />
-      <workItem from="1728481641953" duration="33000" />
-      <workItem from="1728481705435" duration="25000" />
-      <workItem from="1728481743009" duration="30000" />
-      <workItem from="1728481809051" duration="767000" />
-      <workItem from="1728482587182" duration="29000" />
-      <workItem from="1728482633068" duration="869000" />
-      <workItem from="1728484287933" duration="38000" />
-      <workItem from="1728484430871" duration="46000" />
-      <workItem from="1728486760532" duration="28000" />
-      <workItem from="1728486798428" duration="43000" />
-      <workItem from="1728486878134" duration="121000" />
-      <workItem from="1728487039330" duration="1860000" />
-      <workItem from="1728488928292" duration="2000" />
-      <workItem from="1728489074394" duration="19000" />
-      <workItem from="1728489286330" duration="1126000" />
-      <workItem from="1728490431172" duration="3644000" />
-      <workItem from="1728494098678" duration="548000" />
-      <workItem from="1728494659807" duration="117000" />
-      <workItem from="1728519115874" duration="5370000" />
-      <workItem from="1728526366087" duration="95000" />
-      <workItem from="1728526472062" duration="1674000" />
+      <updated>1728544846421</updated>
+      <workItem from="1728544847439" duration="803000" />
+      <workItem from="1728545696501" duration="1217000" />
+      <workItem from="1728546933945" duration="472000" />
+      <workItem from="1728547425396" duration="5988000" />
     </task>
-    <task id="LOCAL-00001" summary="initial">
-      <option name="closed" value="true" />
-      <created>1728525499328</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1728525499328</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Enable message generation in CMakeLists.txt&#10;&#10;Uncomment and modify `add_message_files` to include `my_msg.msg`, facilitating message generation in the 'msg' folder.">
-      <option name="closed" value="true" />
-      <created>1728525769139</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1728525769139</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -409,48 +560,5 @@
     <isAutomaticCheckingOnLaunch value="false" />
     <isAutomaticFoundErrors value="true" />
     <isAutomaticReloadCMake value="true" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="initial" />
-    <MESSAGE value="add cmakefiles  add_message_files" />
-    <MESSAGE value="&#10;&#10;Uncomment and modify add_message_files to include 'my_msg.msg'. This allows the project to generate custom messages defined in 'msg' folder. Adjustments ensure compatibility with the message generation system." />
-    <MESSAGE value="Enable message generation in CMakeLists.txt&#10;&#10;Uncomment and modify `add_message_files` to include `my_msg.msg`, facilitating message generation in the 'msg' folder." />
-    <option name="LAST_COMMIT_MESSAGE" value="Enable message generation in CMakeLists.txt&#10;&#10;Uncomment and modify `add_message_files` to include `my_msg.msg`, facilitating message generation in the 'msg' folder." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/talker.cpp</url>
-          <line>81</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/hello.cpp</url>
-          <line>10</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/hello.cpp</url>
-          <line>11</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>

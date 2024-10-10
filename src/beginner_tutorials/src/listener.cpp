@@ -4,7 +4,15 @@
 /**
  * This tutorial demonstrates simple receipt of messages over the ROS system.
  */
-void chatterCallback(const std_msgs::String::ConstPtr& msg)
+
+
+class Listener
+{
+public:
+    void callback(const std_msgs::String::ConstPtr& msg);
+};
+
+void callback(const std_msgs::String::ConstPtr& msg)
 {
     ROS_INFO("I heard: [%s]", msg->data.c_str());
 }
@@ -29,7 +37,7 @@ int main(int argc, char **argv)
      * NodeHandle destructed will close down the node.
      */
     ros::NodeHandle n;
-
+    Listener listener;
     /**
      * The subscribe() call is how you tell ROS that you want to receive messages
      * on a given topic.  This invokes a call to the ROS
@@ -45,8 +53,8 @@ int main(int argc, char **argv)
      * is the number of messages that will be buffered up before beginning to throw
      * away the oldest ones.
      */
-    ros::Subscriber sub = n.subscribe("chatter", 1000, chatterCallback);
-
+//    ros::Subscriber sub = n.subscribe("chatter", 1000, chatterCallback);
+    ros::Subscriber sub = n.subscribe("chatter", 1000, &Listener::callback, &listener);
     /**
      * ros::spin() will enter a loop, pumping callbacks.  With this version, all
      * callbacks will be called from within this thread (the main one).  ros::spin()

@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="beginner_tutorials" type="hello" name="hello_test" />
+</launch>
+
